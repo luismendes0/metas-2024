@@ -14,4 +14,4 @@ for(let i=0; i <botoes.length; i++){
 }
 const tempoObjetivo1 = new Date("2030-02-21T00:00:00");
 let tempoAtual = new Date();
-contadores[0].textContent = tempoObjetivo1;
+contadores[0].textContent = tempoObjetivo1 - tempoAtual;
